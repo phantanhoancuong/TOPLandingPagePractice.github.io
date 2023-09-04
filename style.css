@@ -1,0 +1,162 @@
+section {
+  padding: 5% 20%;
+}
+
+body {
+  background-color: #1f2937;
+}
+
+header {
+  padding: 0% 20%;
+}
+
+body ul li {
+  list-style-type: none;
+}
+
+button {
+  background-color: #172336;
+}
+
+header {
+  display: flex;
+  color: #f9faf8;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px dashed #e5e7eb;
+}
+
+.header-link {
+  display: flex;
+  font-size: 18px;
+}
+
+.header-link li {
+  padding: 18px;
+  color: #e5e7eb;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-image {
+  width: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  background-color: #848583;
+  color: #e5e7eb;
+  border-radius: 10px;
+}
+
+.image-placeholder p {
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-information {
+  margin-right: 50px;
+}
+
+button {
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.information-section {
+  background-color: white;
+}
+
+.information-section h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+}
+
+.information-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.information-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-section h1 {
+  font-size: 36px;
+  font-style: lighter;
+  color: #1f2937;
+}
+
+.quote-section h4 {
+  text-align: right;
+}
+
+.action-section {
+  background-color: white;
+}
+
+.action-banner {
+  background-color: #3882f6;
+  display: flex;
+  border-radius: 25px;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.action-information {
+  font-size: 24px;
+  color: #f9faf8;
+  max-width: 350px;
+}
+
+button {
+  border-color: #f9faf8;
+  background-color: #3882f6;
+}
+
+footer {
+  color: #f9faf8;
+  text-align: center;
+  padding: 1%;
+}
